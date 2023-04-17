@@ -1,0 +1,11 @@
+[project]
+name = "connectx"
+description = "connectx"
+version = "0.1.0"
+authors = [
+    { name = "Roberto Serra", email = "obi.serra@gmail.com" }
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = []

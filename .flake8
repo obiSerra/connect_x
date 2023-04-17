@@ -1,0 +1,7 @@
+[flake8]
+exclude = .*
+application-import-names = kraken_client
+docstring-convention = google
+import-order-style = pycharm
+max-line-length = 128
+extend-ignore = E203

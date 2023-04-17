@@ -1,0 +1,7 @@
+data
+logs
+backups
+.ipynb_checkpoints
+saved_models
+*.log
+*/connectx.egg-info/
