@@ -5,6 +5,7 @@ from connectx.model_agent_loader import get_agent
 
 from connectx.utils import get_win_percentages, print_win_percentages, update_model_data
 from connectx.lookahead import multistep_agent_factory
+from connectx.look_agent_better import agent_factory
 from connectx.environment import (
     ConnectFourGymV13,
     ConnectFourGymV2,
@@ -41,6 +42,8 @@ for e in env_list.items():
 
 if sys.argv[2].endswith("lookahead"):
     agent2 = multistep_agent_factory()
+elif sys.argv[2].endswith("better"):
+    agent2 = agent_factory()
 elif sys.argv[2].endswith("negamax"):
     agent2 = "negamax"
 elif sys.argv[2].endswith("random"):
